@@ -1,24 +1,25 @@
 
 RUTAS_POR_COMPETIDOR = {
-    "Arcadi": ["CLPVES", "COPVES", "EURVES"],
-    "Curiara": ["CLPVES", "COPVES", "EURVES"],
-    "Global66": ["CLPVES", "COPVES"],
+    "Arcadi": ["CLPVES", "COPVES", "CLPCOP", "CLPUS", "CLPEUR"],
+    "Curiara": ["EURVES"],
+    "Global66": ["CLPVES", "PENVES", "COPVES", "CLPCOP", "CLPUS", "CLPARS", "CLPEUR", "CLPPEN", "COPARS", "COPPEN", "COPEUR", "COPUS", "EURARS", "EURCOP", "EURPEN", "EURUS", "EURVES"],
     "Intergiros": ["BRLVES", "COPVES", "PENVES"],
-    "Money Gram": ["BRLVES", "CLPVES", "EURVES", "COPVES", "PENVES"],
-    "Quickxnet": ["CLPVES"],
+    "Money Gram": ["CLPVES", "CLPCOP", "CLPARS", "EURARS", "EURPEN", "BRLVES"],
+    "Quickex": ["CLPVES", "PENVES", "CLPUS"],
     "Remesas Vzla": ["CLPVES"],
     "Remittven": ["EURVES"],
     "RIA": ["EURVES"],
-    "Tucambio CL": ["CLPVES"],
+    "Tucambio CL": ["CLPVES", "CLPARS"],
     "Vitawallet": ["CLPVES"],
     "Western Union": ["EURVES"],
+    "Mi Papaya":["CLPVES", "PENVES", "COPVES", "BRLVES"],
 }
 
 URLS_COMPETIDORES = {
     "Arcadi": "https://www.arcadienvios.com/",
     "Global66": "https://www.global66.com/ec/",
     "Money Gram": "https://www.moneygram.com/us/en",
-    "Quickxnet": "https://www.quickex.net/",
+    "Quickex": "https://www.quickex.net/",
     "Remesas Vzla": "https://remesasvzla.com/",
     "Tucambio CL": "https://www.tucambio.app/en",
     "Vitawallet": "https://vitawallet.io/",

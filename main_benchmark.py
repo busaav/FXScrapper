@@ -5,14 +5,26 @@ import re
 from data_config import RUTAS_POR_COMPETIDOR, URLS_COMPETIDORES
 # Importar la clase base y las clases específicas
 from scrapers.base_scraper import BaseScraper 
-from scrapers.global66_scraper import Global66Scraper 
+from scrapers.global66_api import Global66ApiScraper 
+from scrapers.arcadi_api import ArcadiApiScraper
+from scrapers.intergiros_scraper import IntergirosScraper
+from scrapers.quickex_scraper import QuickexScraper
+from scrapers.tucambio_scraper import TuCambioScraper
+from scrapers.remesasvzla_scraper import RemesasVzlaScraper
+from scrapers.curiara_scrapper import CuriaraScraper
 # Agrega aquí las clases de otros competidores a medida que las crees
 # from scrapers.arcadi_scraper import ArcadiScraper 
 
 # --- Mapeo de Competidores a sus Clases Scraper ---
 # Esto permite al bucle principal saber qué clase usar para cada competidor.
 COMPETIDOR_MAPPER = {
-    "Global66": Global66Scraper,
+    "Global66": Global66ApiScraper,
+    "Arcadi": ArcadiApiScraper,
+    "Intergiros": IntergirosScraper,
+    "Quickex": QuickexScraper,
+    "Tucambio CL": TuCambioScraper,
+    "Remesas Vzla": RemesasVzlaScraper,
+    "Curiara": CuriaraScraper,
 }
 
 def calcular_tasa_inversa(tasa_directa):
