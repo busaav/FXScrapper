@@ -13,6 +13,7 @@ RUTAS_POR_COMPETIDOR = {
     "Vitawallet": ["CLPVES"],
     "Western Union": ["EURVES"],
     "Mi Papaya":["CLPVES", "PENVES", "COPVES", "BRLVES"],
+    "Paysend": ["CLPCOP", "CLPUS", "CLPARS", "CLPEUR", "CLPPEN", "COPARS", "COPPEN", "COPEUR", "COPUSD", "EURARS", "EURCOP", "EURPEN"]
 }
 
 URLS_COMPETIDORES = {
@@ -28,6 +29,8 @@ URLS_COMPETIDORES = {
     "Remittven": "https://remittven.es/",
     "RIA": "https://www.riamoneytransfer.com/en-us/",
     "Western Union": "https://www.westernunion.com/ec/en/home.html",
+    "Mi Papaya": "https://mipapaya.com/",
+    "Paysend": "https://paysend.com/"
 }
 
 # Monto Fijo según Moneda de Origen
