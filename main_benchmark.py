@@ -15,6 +15,7 @@ from scrapers.curiara_scrapper import CuriaraScraper
 #from scrapers.mipapaya_scraper import MiPapayaScraper
 from scrapers.paysend_scraper import PaysendScraper
 from scrapers.xe_scraper import XeScraper
+from scrapers.ria_scraper import RiaScraper
 # Agrega aquí las clases de otros competidores a medida que las crees
 # from scrapers.arcadi_scraper import ArcadiScraper 
 
@@ -30,7 +31,8 @@ COMPETIDOR_MAPPER = {
     #"Curiara": CuriaraScraper,
     #"Mi Papaya": MiPapayaScraper,
     #"Paysend": PaysendScraper,
-    "XE": XeScraper
+    #"XE": XeScraper,
+    "RIA": RiaScraper
 }
 
 def calcular_tasa_inversa(tasa_directa):
