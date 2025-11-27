@@ -14,21 +14,23 @@ from scrapers.remesasvzla_scraper import RemesasVzlaScraper
 from scrapers.curiara_scrapper import CuriaraScraper
 #from scrapers.mipapaya_scraper import MiPapayaScraper
 from scrapers.paysend_scraper import PaysendScraper
+from scrapers.xe_scraper import XeScraper
 # Agrega aquí las clases de otros competidores a medida que las crees
 # from scrapers.arcadi_scraper import ArcadiScraper 
 
 # --- Mapeo de Competidores a sus Clases Scraper ---
 # Esto permite al bucle principal saber qué clase usar para cada competidor.
 COMPETIDOR_MAPPER = {
-    "Global66": Global66ApiScraper,
-    "Arcadi": ArcadiApiScraper,
-    "Intergiros": IntergirosScraper,
-    "Quickex": QuickexScraper,
-    "Tucambio CL": TuCambioScraper,
-    "Remesas Vzla": RemesasVzlaScraper,
-    "Curiara": CuriaraScraper,
+    #"Global66": Global66ApiScraper,
+    #"Arcadi": ArcadiApiScraper,
+    #"Intergiros": IntergirosScraper,
+    #"Quickex": QuickexScraper,
+    #"Tucambio CL": TuCambioScraper,
+    #"Remesas Vzla": RemesasVzlaScraper,
+    #"Curiara": CuriaraScraper,
     #"Mi Papaya": MiPapayaScraper,
-    "Paysend": PaysendScraper
+    #"Paysend": PaysendScraper,
+    "XE": XeScraper
 }
 
 def calcular_tasa_inversa(tasa_directa):
