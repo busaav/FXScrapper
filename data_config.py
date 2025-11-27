@@ -14,7 +14,8 @@ RUTAS_POR_COMPETIDOR = {
     "Western Union": ["EURVES"],
     "Mi Papaya":["CLPVES", "PENVES", "COPVES", "BRLVES"],
     "Paysend": ["CLPCOP", "CLPUS", "CLPARS", "CLPEUR", "CLPPEN", "COPARS", "COPPEN", "COPEUR", "COPUSD", "EURARS", "EURCOP", "EURPEN"],
-    "XE": ["EURARS", "EURCOP", "EURPEN", "EURUSD"]
+    "XE": ["EURARS", "EURCOP", "EURPEN", "EURUSD"],
+    "XOOM": ["EURARS", "EURCOP", "EURPEN", "EURUSD"]
 }
 
 URLS_COMPETIDORES = {
