@@ -18,6 +18,7 @@ from scrapers.xe_scraper import XeScraper
 from scrapers.ria_scraper import RiaScraper
 from scrapers.xoom_scraper import XoomScraper
 from scrapers.remitly_scraper import RemitlyScraper
+from scrapers.currencybird_api import CurrencyBirdApiScraper
 # Agrega aquí las clases de otros competidores a medida que las crees
 # from scrapers.arcadi_scraper import ArcadiScraper 
 
@@ -36,7 +37,8 @@ COMPETIDOR_MAPPER = {
     #"XE": XeScraper,
     #"RIA": RiaScraper,
     #"XOOM": XoomScraper,
-    "Remitly": RemitlyScraper
+    #"Remitly": RemitlyScraper,
+    "CURRENCYBIRD": CurrencyBirdApiScraper
 }
 
 def calcular_tasa_inversa(tasa_directa):

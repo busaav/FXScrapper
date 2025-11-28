@@ -16,7 +16,8 @@ RUTAS_POR_COMPETIDOR = {
     "Paysend": ["CLPCOP", "CLPUS", "CLPARS", "CLPEUR", "CLPPEN", "COPARS", "COPPEN", "COPEUR", "COPUSD", "EURARS", "EURCOP", "EURPEN"],
     "XE": ["EURARS", "EURCOP", "EURPEN", "EURUSD"],
     "XOOM": ["EURARS", "EURCOP", "EURPEN", "EURUSD"],
-    "Remitly":["EURARS", "EURCOP", "EURPEN", "EURUSD"]
+    "Remitly":["EURARS", "EURCOP", "EURPEN", "EURUSD"],
+    "CURRENCYBIRD": ["CLPCOP", "CLPUSD", "CLPARS", "CLPEUR", "CLPPEN"],
 }
 
 URLS_COMPETIDORES = {
@@ -34,7 +35,8 @@ URLS_COMPETIDORES = {
     "Western Union": "https://www.westernunion.com/ec/en/home.html",
     "Mi Papaya": "https://mipapaya.com/",
     "Paysend": "https://paysend.com/",
-    "XE": "https://www.xe.com/currencyconverter/convert/?Amount=50&From=EUR&To=ARS"
+    "XE": "https://www.xe.com/currencyconverter/convert/?Amount=50&From=EUR&To=ARS",
+    "CURRENCYBIRD": "https://www.currencybird.cl/",
 }
 
 # Monto Fijo según Moneda de Origen
